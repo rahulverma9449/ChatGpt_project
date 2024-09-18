@@ -30,7 +30,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        'https://backend-7wf2.onrender.com/upload-resume',
+        'https://backend-qboy.onrender.com/upload-resume',
         formData,
         {
           headers: {
@@ -57,7 +57,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        'https://backend-7wf2.onrender.com/chat',
+        'https://backend-qboy.onrender.com/chat',
         {
           message: chatMessage,
           resumeKeywords: keywords,
