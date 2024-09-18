@@ -30,7 +30,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        'https://mockinterviewbackend.onrender.com/upload-resume',
+        'https://backend-7wf2.onrender.com/upload-resume',
         formData,
         {
           headers: {
@@ -57,7 +57,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        'https://mockinterviewbackend.onrender.com/chat',
+        'https://backend-7wf2.onrender.com//chat',
         {
           message: chatMessage,
           resumeKeywords: keywords,
