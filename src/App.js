@@ -57,7 +57,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        'https://backend-7wf2.onrender.com//chat',
+        'https://backend-7wf2.onrender.com/chat',
         {
           message: chatMessage,
           resumeKeywords: keywords,
